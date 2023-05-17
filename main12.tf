@@ -1,16 +1,14 @@
-terraform {
-  required_providers {
+providers {
     aws = {
-      source  = "hashicorp/aws"
-      version = "~> 4.0"
+     
     }
   }
-}
-resource "aws_iam_user" "lb" {
-  name = "aws-user"
-  path = "/system/"
+
+resource "aws_s3_bucket" "tf-s3-demo" {
+  bucket = "my-tf-aws-bucket12321git"
 
   tags = {
-    tag-key = "tag-value"
+    Name        = "My bucket"
+    Environment = "Dev"
   }
 }
