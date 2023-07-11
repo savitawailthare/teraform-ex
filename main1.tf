@@ -15,4 +15,5 @@ resource "aws_instance" "my-inst" {
       volume_size = 10
       volume_type = "gp2"
     }
+    key value="savi"
 }
