@@ -13,7 +13,7 @@ variable "pub_ip"{
 
 variable "key_pair"  {
     type=string
-default="ohio-new"
+default="mumbai"
 }
 
 variable "role"  {
