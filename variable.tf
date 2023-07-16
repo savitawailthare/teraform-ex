@@ -8,7 +8,8 @@ variable "ami"{
 }
 
 variable "pub_ip"{
-    type="true"
+    type="bool"
+    
 }
 
 variable "key_pair"  {
