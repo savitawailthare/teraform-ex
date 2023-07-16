@@ -29,7 +29,7 @@ default={
     Dept="operation"
 }
 }
-variable "count" {
+variable "count1" {
   count=number
 }
 
