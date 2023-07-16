@@ -4,11 +4,11 @@ variable "region"{
 }
 variable "ami"{
     type=string
-    default="ami-08333bccc35d71140"
+    default="ami-0d13e3e640877b0b9"
 }
 
 variable "pub_ip"{
-    type="bool"
+    type=bool
     
 }
 
