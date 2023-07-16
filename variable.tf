@@ -30,7 +30,7 @@ default={
 }
 }
 variable "count1" {
-  count=number
+  type=number
 }
 
 #variable "username" {
