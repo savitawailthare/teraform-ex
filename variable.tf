@@ -33,7 +33,7 @@ variable "count1" {
   type=number
 }
 
-#variable "username" {
-  #type = list(string)
- # default = ["tucker","annie","josh"]
-#}
+variable "username" {
+  type = list(string)
+ default = ["toni","moni","soni"]
+}
