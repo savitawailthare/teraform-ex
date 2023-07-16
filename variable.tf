@@ -29,8 +29,11 @@ default={
     Dept="operation"
 }
 }
-
-variable "username" {
-  type = list(string)
-  default = ["tucker","annie","josh"]
+variable "count" {
+  count=number
 }
+
+#variable "username" {
+  #type = list(string)
+ # default = ["tucker","annie","josh"]
+#}
