@@ -29,7 +29,7 @@
   # security_groups = ["default"]
   vpc_security_group_ids = [aws_security_group.this.id]
   iam_instance_profile =var.role
-  #   user_data = file("${path.module}/script.sh")
+  user_data = file("${path.module}/script.sh")
    root_block_device{
       volume_size = 10
            volume_type = "gp2"
